@@ -1,0 +1,93 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white; /* Fondo naranja */
+}
+
+header {
+    background-color: #44372b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.header-container {
+    max-width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: white; /* Fondo blanco para el contenido */
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.photo {
+    margin-bottom: 20px;
+}
+
+.photo img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.bio {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #44372b;
+}
+
+.index {
+    background-color: #44372b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.index ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.index li {
+    background-color: white;
+    color: white;
+    margin: 5px auto;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box; /* Ajusta el tamaño del borde al tamaño del cuadro */
+}
+
+.index li:hover {
+    transform: scale(1.05);
+}
+
+.index a {
+    color: #44372b;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
